@@ -1,2 +1,2 @@
 # oops
-oop conceptual code
+code in c++
