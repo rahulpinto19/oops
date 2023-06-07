@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<iostream>
+using namespace std;
+double volume(int a,int b)
+{
+    return (3*a*a*b);
+}
+int volume(int a)
+{
+    return a*a*a;
+}
+int volume(int a,int b,int c)
+{
+    
+    return a*b*c;
+}
+double volume(double a)
+{
+    return (double)(4/3)*(3.161)*a*a;
+}
+int main()
+{
+    cout<<"volume of the cube is :"<<volume(5)<<endl;
+    cout<<"volume of the sphere is:"<<volume(10.00)<<endl;
+    cout<<"volume of the cylinder is:"<<volume(4,7)<<endl;
+    cout<<"volume of the cuboid is:"<<volume(1,2,3);
+    return 0;
+}
