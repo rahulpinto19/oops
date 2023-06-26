@@ -31,7 +31,7 @@ int main()
     child d;
     bptr = &d;
 
-    bptr->show();
+    bptr->parent::show();
 
     bptr->print();
 }
